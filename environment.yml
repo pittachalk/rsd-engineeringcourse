@@ -1,0 +1,21 @@
+name: rsd
+channels:
+  - defaults
+  - plotly
+  - conda-forge
+dependencies:
+  - ipykernel[version='>=5.1']
+  - python-kaleido
+  - psutil
+  - scikit-learn[version='>=0.22']
+  - plotly
+  - statsmodels[version='>=0.11']
+  - python[version='>=3.6']
+  - jupyterlab-plotly-extension
+  - scipy[version='>=1.4']
+  - seaborn[version='>=0.10']
+  - pytest
+  - jupyterlab
+  - dash
+  - jupyter[version='>=1.0']
+  - wget
